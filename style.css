@@ -1,0 +1,84 @@
+/* Reseta as margens e padding para garantir um layout consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Estilo do contêiner do formulário */
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Título do formulário */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #5f6368;
+}
+
+/* Estilo do campo de input */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilo do botão */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4285F4;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para o botão */
+button:hover {
+    background-color: #357ae8;
+}
+
+/* Link para voltar ao formulário */
+a {
+    text-decoration: none;
+    color: #4285F4;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Página de confirmação */
+.confirmacao-container {
+    text-align: center;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #5f6368;
+}
